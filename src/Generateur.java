@@ -39,7 +39,7 @@ public class Generateur {
     public void ajouterNom(String nom) {
         nom = nom.trim().toLowerCase();
         nomsAjoutes.add(nom);
-        // On enregistre la transition à partir du début spécial '^'
+        // Enregistre la transition à partir du début spécial '^'
         int debut = '^';
         for (int i = 0; i < nom.length(); i++) {
             int courant = nom.charAt(i);
