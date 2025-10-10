@@ -50,7 +50,7 @@ public class Matrice {
         return matriceTransition;
     }
 
-    // Affiche uniquement les transitions existantes (non nulles) de façon lisible
+    // Afficher uniquement les transitions existantes (non nulles) de façon lisible
     public void afficherTransitions() {
         boolean vide = true;
         System.out.println("Matrice de transition :");
